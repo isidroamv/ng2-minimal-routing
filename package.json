@@ -1,0 +1,44 @@
+{
+  "name": "ng2-minimal-routing",
+  "version": "1.0.0-SNAPSHOT",
+  "description": "A minimal Angular2 routing using TypeScript",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isidroamv/ng2-minimal-routing.git"
+  },
+  "bugs": {
+    "url": "https://github.com/isidroamv/ng2-minimal-routing/issues"
+  },
+  "homepage": "https://github.com/isidroamv/ng2-minimal-routing#readme",
+  "devDependencies": {
+    "connect": "3.4.0",
+    "del": "1.2.0",
+    "es6-promise": "3.0.2",
+    "gulp": "3.9.0",
+    "gulp-typescript": "2.8.0",
+    "open": "0.0.5",
+    "rxjs": "5.0.0-alpha.11",
+    "serve-static": "1.10.0",
+    "zone.js": "0.5.8"
+  },
+  "dependencies": {
+    "angular2": "2.0.0-alpha.50",
+    "es6-shim": "0.33.13",
+    "es6-promise": "3.0.2",
+    "rxjs": "5.0.0-alpha.11",
+    "systemjs": "0.19.6"
+  },
+  "jspm": {
+    "directories": {},
+    "dependencies": {
+      "angular2": "npm:angular2@2.0.0-alpha.50",
+      "es6-shim": "github:es-shims/es6-shim@0.33.13",
+      "reflect-metadata": "npm:reflect-metadata@0.1.2",
+      "zone.js": "npm:zone.js@0.5.8"
+    },
+    "devDependencies": {
+      "traceur": "github:jmcriffey/bower-traceur@0.0.91",
+      "traceur-runtime": "github:jmcriffey/bower-traceur-runtime@0.0.91"
+    }
+  }
+}
