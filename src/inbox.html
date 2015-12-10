@@ -2,9 +2,9 @@
   <h2 class="page-title">Inbox</h2>
 
   <ol class="inbox-list">
-    <li *ng-for="#item of items; #i = index" class="inbox-item-record">
+    <li *ngFor="#item of items; #i = index" class="inbox-item-record">
        <a id="item-{{ item.id }}"
-         [router-link]="['/DetailPage', {'id':item.id}]"  >{{ item.date }}</a><br>
+         [routerLink]="['/DetailPage', {'id':item.id}]"  >{{ item.date }}</a><br>
     </li>
   </ol>
 </div>
